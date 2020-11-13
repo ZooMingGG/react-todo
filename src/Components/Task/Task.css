@@ -1,0 +1,44 @@
+.Task {
+    color: #047fa1;
+    padding: 10px;
+    width: 320px;
+    margin: 0 auto;
+    border: 5px solid #61dafb;
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #ffffff;
+}
+
+.task-checkbox {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.task-text {
+    padding-bottom: 3px;
+    width: 230px;
+    text-align: start;
+    font-size: 16px;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.task-delete-btn {
+    background-color: #22a9ed;
+    color: #086883;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.task-delete-btn:hover {
+    background-color: #1291d1;
+    color:  #61dafb;
+}

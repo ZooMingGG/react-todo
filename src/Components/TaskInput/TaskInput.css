@@ -1,0 +1,34 @@
+.TaskInput {
+    width: 320px;
+    margin: 0 auto 0;
+    border: 5px solid #61dafb;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    padding: 0 10px;
+    width: 250px;
+    height: 51px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.add-task-btn {
+    background-color: #22a9ed;
+    color: #086883;
+    width: 60px;
+    height: 51px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    transition: all 0.3s;
+}
+
+.add-task-btn:hover {
+    background-color: #1291d1;
+    color:  #61dafb;
+}
